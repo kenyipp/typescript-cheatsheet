@@ -65,5 +65,14 @@ type Options = {
 //   };
 ```
 
+### [Recursive Conditional Types](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-1.html#recursive-conditional-types)
+
+### [Object destructuring with type](https://stackoverflow.com/questions/39672807/types-in-object-destructuring)
+
+```ts
+const {foo}: {foo: IFoo[]} = bar;
+const foo: IFoo[] = bar.foo;$$
+```
+
 ## History
 Archived practices that have been engraved in my brain.
